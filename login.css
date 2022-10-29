@@ -6,7 +6,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Times New Roman';
-	background: rgb(64, 63, 63);
+	background: linear-gradient(to bottom, #101013, #5d5d60, #f0f0f5);
 }
 .main{
 	width: 350px;
@@ -15,7 +15,7 @@ body{
 	box-shadow: 5px 20px 50px rgb(15, 15, 14);
 }
 label{
-    color: rgb(210, 184, 14);
+    color: rgb(207, 153, 36);
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -27,8 +27,8 @@ button{
 	margin: 10px auto;
 	justify-content: center;
 	display: block;
-	color: rgb(210, 184, 14);
-	background: #0f0e10;
+	color: rgb(207, 153, 36);
+	background: #030303;
 	font-size: 1em;
 	margin-top: 20px;
 	border-radius: 5px;
@@ -36,7 +36,7 @@ button{
     border:none;
 }
 input{
-    background-color: rgb(210, 184, 14);
+    background-color: rgb(207, 153, 36);
     height: 20px;
     outline:none;
     border:none;
@@ -46,5 +46,5 @@ input{
     display: flex;
 }
 button:hover{
-   background-color:gray;
+   background-color:rgb(80, 78, 78);
 }
